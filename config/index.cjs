@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小茗宝宝', year: '2000', date: '01-01',
+          type: '*生日', name: '小明宝宝', year: '2000', date: '01-01',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -44,6 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-12-03' },
         // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
@@ -63,3 +64,4 @@ const USER_CONFIG = {
 }
 
 module.exports = USER_CONFIG
+
